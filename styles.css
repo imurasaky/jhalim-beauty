@@ -184,6 +184,7 @@ button { font-family: var(--sans); cursor: pointer; }
   display: flex;
   flex-direction: column;
   line-height: 1;
+  align-items: center;
 }
 .navbar__logo-main {
   font-family: var(--serif);
@@ -191,6 +192,7 @@ button { font-family: var(--sans); cursor: pointer; }
   font-weight: 600;
   color: var(--ciruela);
   letter-spacing: .08em;
+  margin-bottom: 4px;
 }
 .navbar__logo-sub {
   font-family: var(--sans);
